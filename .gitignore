@@ -3,3 +3,10 @@ __pycache__/
 .venv/
 venv/
 resultados_direcao/
+# dados e treinos ficam fora do git (pesados)
+dados/
+runs/
+*.pt
+!modelos/vigia-pose.pt
+!modelos/.gitkeep
+pista.json
