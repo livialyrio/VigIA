@@ -1,0 +1,7 @@
+path: C:/Users/CarlosdeAndrade/Documents/VigIA/VigIA-livis/dados/yolo
+train: images/train
+val: images/val
+kpt_shape: [3, 3]   # 3 pontos (traseira, meio, frente), cada um com x, y, visibilidade
+flip_idx: [0, 1, 2] # espelhar a imagem nao troca traseira, meio e frente
+names:
+  0: carro
